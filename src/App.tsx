@@ -21,7 +21,7 @@ function App() {
   };
 
   const handleScroll = () => {
-    setIsNavbarSmall(window.scrollY > 50); // Adjust threshold as needed
+    setIsNavbarSmall(window.scrollY > 50); 
   };
 
   useEffect(() => {
